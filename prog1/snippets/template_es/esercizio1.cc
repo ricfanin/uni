@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
     }
 
     fstream input;
-    input.open(argv[1], ios::in);
+    input.open(argv[1]);
 
     // Controllo che gli stream siano stati aperti correttamente
     if (input.fail()) {
