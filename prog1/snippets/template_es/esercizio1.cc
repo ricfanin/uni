@@ -24,6 +24,13 @@ int main(int argc, char* argv[])
     //inserisci codice qui
 
 
+    // scorrimento file parola per parola
+    char current_word[255];
+    while(input >> current_word)
+    {
+        
+    }
+
     // chiudo le stream dei file
     input.close();
 }
