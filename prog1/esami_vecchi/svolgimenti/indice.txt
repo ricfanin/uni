@@ -1,0 +1,23 @@
+--- es i/o files --- 
+
+19/06 shifting di una string e ricerca di stringa shiftata
+20/01 CAMBIO BASE(!!!!!!!)
+20/02 rimozione simboli in testa e in coda
+28/07 cerca parola tipo "****are" -> "trovare"
+30/08 ricerca di singoli caratteri in un testo da una stringa
+
+
+--- es ricorsione ---
+28/07 se bisogna restituire una lista concatenata "storta" || esercizio su Taylor(utile per es su mate)
+29/07 se bisogna restituire una lista concatenata "dritta" || conta quante volte compare un elmento di l1 in l2
+01/09 ricorsione su alberi, scorrimento ordinato di alberi
+19/06 calcolo media di elementi pari su albero
+20/01 split albero in due liste in base a pari o dispari
+30/08 calcolo numero polinomiale
+
+--- es 3 ---
+
+19/06 lista concat multilivello
+20/02 gioco degli amici e dei salti(simile a giuseppe flavio ma con queue)
+28/07 lista degli archi di un nodo di un grafo da matrice di adiacenza
+29/07 doppia pila in singolo array/lista concat
