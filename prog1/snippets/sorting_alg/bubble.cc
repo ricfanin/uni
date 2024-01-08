@@ -11,3 +11,27 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }
+
+
+void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+void recursiveBubbleSort(int arr[], int n) {
+    // Caso base: se l'array ha 1 o 0 elementi, è già ordinato
+    if (n <= 1) {
+        return;
+    }
+
+    // Attraversa l'array e sposta il più grande elemento alla fine
+    for (int i = 0; i < n - 1; ++i) {
+        if (arr[i] > arr[i + 1]) {
+            swap(arr[i], arr[i + 1]);
+        }
+    }
+
+    // Chiamata ricorsiva su tutto l'array tranne l'ultimo elemento
+    recursiveBubbleSort(arr, n - 1);
+}
