@@ -11,27 +11,6 @@ int binToDec(string n, int base);
 
 // Fine dichiarazione delle funzioni
 
-int main(int argc, char *argv[])
-{
-
-    // Controlli
-
-    // Fine Controlli
-
-    string num1 = "ADC";
-    string num2 = "1010";
-    string num3 = "A54";
-    string num4 = "AFZ19";
-
-    // Richiamo funzioni
-    cout << "Numero in binario: " << num1 << " -- Numero in Decimale: " << formAnyBaseToDec(num1, 16) << endl;
-    cout << "Numero in binario: " << num2 << " -- Numero in Decimale: " << formAnyBaseToDec(num2, 2) << endl;
-    cout << "Numero in binario: " << num3 << " -- Numero in Decimale: " << formAnyBaseToDec(num3, 16) << endl;
-    cout << "Numero in binario: " << num4 << " -- Numero in Decimale: " << formAnyBaseToDec(num4, 36) << endl;
-
-    return 0;
-}
-
 // Inizio implementazione delle funzioni
 int formAnyBaseToDec(string n, int base)
 {
@@ -75,3 +54,25 @@ int formAnyBaseToDec(string n, int base)
     delete[] arrConversione;
     return nDec;
 }
+
+int main(int argc, char *argv[])
+{
+
+    // Controlli
+
+    // Fine Controlli
+
+    string num1 = "ADC";
+    string num2 = "1010";
+    string num3 = "A54";
+    string num4 = "AFZ19";
+
+    // Richiamo funzioni
+    cout << "Numero in binario: " << num1 << " -- Numero in Decimale: " << formAnyBaseToDec(num1, 16) << endl;
+    cout << "Numero in binario: " << num2 << " -- Numero in Decimale: " << formAnyBaseToDec(num2, 2) << endl;
+    cout << "Numero in binario: " << num3 << " -- Numero in Decimale: " << formAnyBaseToDec(num3, 16) << endl;
+    cout << "Numero in binario: " << num4 << " -- Numero in Decimale: " << formAnyBaseToDec(num4, 36) << endl;
+
+    return 0;
+}
+
